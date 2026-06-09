@@ -1,0 +1,22 @@
+{
+  "name": "vinna",
+  "version": "0.1.0",
+  "main": "src/vinna.js",
+  "scripts": {
+    "start": "bun run src/vinna.js",
+    "shard": "bun run src/shard.js",
+    "deploy": "bun run src/deploy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Vinna.",
+  "dependencies": {
+    "bun": "^1.3.13",
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "mongoose": "^9.6.1",
+    "npm": "^11.15.0",
+    "sequelize-cockroachdb": "^6.0.5"
+  }
+}
